@@ -18,8 +18,7 @@ class Solution:
 
         return ''.join(result)
 
-# Example usage:
 solution = Solution()
-print(solution.convert("PAYPALISHIRING", 3))  # Output: "PAHNAPLSIIGYIR"
-print(solution.convert("PAYPALISHIRING", 4))  # Output: "PINALSIGYAHRPI"
-print(solution.convert("A", 1))  # Output: "A"
+print(solution.convert("PAYPALISHIRING", 3))  
+print(solution.convert("PAYPALISHIRING", 4))  
+print(solution.convert("A", 1)) 
